@@ -1,4 +1,5 @@
 <!-- Tạo người dùng -->
+"code-runner.runInTerminal": true
 docker-compose up --build 
 docker-compose down
 <!--  -->
