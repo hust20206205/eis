@@ -1,6 +1,4 @@
 <!-- Tạo người dùng -->
-npm i -g @nestjs/cli
-nest new  user-service
 docker-compose up --build 
 docker-compose down
 <!--  -->

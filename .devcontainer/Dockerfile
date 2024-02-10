@@ -7,3 +7,5 @@ RUN apt update \
     && rm -rf /var/lib/apt/lists/* \
     && echo "node ALL=(ALL) NOPASSWD: ALL" >/etc/sudoers.d/node \
     && chmod 0440 /etc/sudoers.d/node
+RUN   npm i -g @nestjs/cli
+RUN    npm install -g npm@10.4.0 
