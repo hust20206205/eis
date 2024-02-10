@@ -1,3 +1,6 @@
+<!-- Tạo người dùng -->
+npm i -g @nestjs/cli
+nest new  user-service
 docker-compose up --build 
 docker-compose down
 <!--  -->
@@ -13,6 +16,28 @@ docker pull node:18
 docker save -o       node_image.tar node
 docker load -i       node_image.tar
 <!--  -->
-<!-- Tạo người dùng -->
 Tạo người dùng API
-# eis
+npm -g nest
+nest g resource   nghia
+product  
+
+
+
+=============================
+=============================
+=============================
+npm i @nestjs/config
+npm i @nestjs/swagger
+npm i   faker
+npm i        class-validator          class-transformer
+npm i @nestjs/typeorm         typeorm  
+npm i mysql2
+npm i @nestjs/mongoose         mongoose  
+npm i @nestjs/cqrs
+npm i @nestjs/event-emitter 
+
+
+
+npm i      @nestjs/microservices  
+npm i        amqp-connection-manager   
+

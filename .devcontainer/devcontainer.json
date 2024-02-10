@@ -1,0 +1,15 @@
+{
+  "name": "Basic Node.js",
+  "build": { "dockerfile": "Dockerfile" },
+"remoteUser": "node",
+"features": {
+	"ghcr.io/elanhasson/devcontainer-features/dotnet-aspire-daily:1": {}
+},
+"customizations": {
+  "vscode": {
+    "extensions": [
+      "MichaelCurrin.auto-commit-msg"
+    ]
+  }
+}
+}
